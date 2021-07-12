@@ -1,0 +1,80 @@
+{
+    "first":
+    {
+        "location":
+        {
+            "lat": 45.0737815284364, "long": 39.02195956971909
+        },
+        "pois":
+        {
+            "parks":
+            {
+                "geojson": [
+                    {
+                        "type": "Feature",
+                        "geometry":
+                        {
+                            "type": "Point",
+                            "coordinates": [39.011938, 45.072342]},
+                            "properties":
+                            {
+                                "osm_id": 325853529,
+                                "osm_type": 2,
+                                "distance": 805.2453619,
+                                "category_ids":
+                                {
+                                    "280":
+                                    {
+                                        "category_name": "park",
+                                        "category_group": "leisure_and_entertainment"
+                                    }
+                                }
+                            }
+                        },
+                    {
+                        "type": "Feature", "geometry": {"type": "Point", "coordinates": [39.010979, 45.07237]}, "properties": {"osm_id": 381221913, "osm_type": 2, "distance": 878.83334025, "category_ids": {"280": {"category_name": "park", "category_group": "leisure_and_entertainment"}}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [39.013343, 45.072389]}, "properties": {"osm_id": 381223766, "osm_type": 2, "distance": 695.97786605, "category_ids": {"280": {"category_name": "park", "category_group": "leisure_and_entertainment"}}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [39.025682, 45.075587]}, "properties": {"osm_id": 638609648, "osm_type": 2, "distance": 355.15839028, "category_ids": {"280": {"category_name": "park", "category_group": "leisure_and_entertainment"}}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [39.009579, 45.072392]}, "properties": {"osm_id": 704383592, "osm_type": 2, "distance": 987.1013007, "category_ids": {"280": {"category_name": "park", "category_group": "leisure_and_entertainment"}}}}]}}, "geometry": {"type": "Point", "coordinates": [38.97430825348612, 45.11889454019721]}}, "second": {"location": {"lat": 45.0507, "long": 39.0008}, "pois": {"parks": {"geojson": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [39.00156, 45.049272]}, "properties": {"osm_id": 72859846, "osm_type": 2, "distance": 169.64820886, "category_ids": {"280": {"category_name": "park", "category_group": "leisure_and_entertainment"}}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [39.002941, 45.049866]}, "properties": {"osm_id": 72859847, "osm_type": 2, "distance": 192.45489971, "category_ids": {"280": {"category_name": "park", "category_group": "leisure_and_entertainment"}}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [39.00395, 45.048684]}, "properties": {"osm_id": 72859849, "osm_type": 2, "distance": 334.34957132, "category_ids": {"280": {"category_name": "park", "category_group": "leisure_and_entertainment"}}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [38.996624, 45.053978]}, "properties": {"osm_id": 72860056, "osm_type": 2, "distance": 490.84332774, "category_ids": {"280": {"category_name": "park", "category_group": "leisure_and_entertainment"}}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [38.997504, 45.053009]}, "properties": {"osm_id": 72860057, "osm_type": 2, "distance": 365.03960537, "category_ids": {"280": {"category_name": "park", "category_group": "leisure_and_entertainment"}}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [39.0035, 45.04607]}, "properties": {"osm_id": 482717082, "osm_type": 2, "distance": 556.75982854, "category_ids": {"280": {"category_name": "park", "category_group": "leisure_and_entertainment"}}, "osm_tags": {"name": "\u041f\u0430\u0440\u043a \u0432 \u0447\u0435\u0441\u0442\u044c 65-\u043b\u0435\u0442\u0438\u044f \u041f\u043e\u0431\u0435\u0434\u044b"}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [38.995035, 45.051357]}, "properties": {"osm_id": 570036148, "osm_type": 2, "distance": 459.95253309, "category_ids": {"280": {"category_name": "park", "category_group": "leisure_and_entertainment"}}}}]}}, "geometry": {"type": "Point", "coordinates": [38.97430825348612, 45.11889454019721]}},
+    "third":
+    {
+        "location":
+        {
+            "lat": 45.06489768105405, "long": 38.93822527162066
+        },
+        "pois":
+        {
+            "parks":
+            {
+                "geojson": [
+                    {
+                        "type": "Feature",
+                        "geometry":
+                        {
+                            "type": "Point",
+                            "coordinates": [38.94829, 45.063297]
+                        },
+                        "properties":
+                        {
+                            "osm_id": 35332518,
+                            "osm_type": 2,
+                            "distance": 812.46244838,
+                            "category_ids": {"280": {"category_name": "park", "category_group": "leisure_and_entertainment"}}, "osm_tags": {"name": "\u0421\u043a\u0432\u0435\u0440 \"\u0421\u043e\u043b\u043d\u0435\u0447\u043d\u044b\u0439\""}}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [38.931669, 45.064592]}, "properties": {"osm_id": 77209442, "osm_type": 3, "distance": 517.41923721, "category_ids": {"280": {"category_name": "park", "category_group": "leisure_and_entertainment"}}}}]}}, "geometry": {"type": "Point", "coordinates": [38.97430825348612, 45.11889454019721]}},
+    "fourth":
+    {
+        "location":
+        {
+            "lat": 45.00831632571033,
+            "long": 39.026149989325965
+        },
+        "pois":
+        {
+            "parks":
+            {
+                "geojson": []
+            }
+        },
+        "geometry":
+        {
+            "type": "Point",
+            "coordinates": [38.97430825348612, 45.11889454019721]
+        }
+    },
+    "fifth": {"location": {"lat": 45.11889454019721, "long": 38.97430825348612}, "pois": {"parks": {"geojson": []}}, "geometry": {"type": "Point", "coordinates": [38.97430825348612, 45.11889454019721]}}}

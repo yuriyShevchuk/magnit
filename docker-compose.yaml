@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+    postgis:
+        image: kartoza/postgis:9.6-2.4
+        ports:
+            - "5433:5433"
+        volumes:
+            - geo_db:/var/lib/postgresql/data
+        environment:
+            - POSTGRES_USER=postgg
+            - POSTGRES_PASS=12345
+            - POSTGRES_DBNAME=gis
+        restart: on-failure
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: geo-app:0.1
+        command: bash -c "python manage.py makemigrations &&\
+                            python manage.py migrate &&\
+                            python manage.py runserver"
+        ports:
+            - "8000:8000"
+        depends_on:
+            - postgis
+volumes:
+    geo_db:
+        driver: local
